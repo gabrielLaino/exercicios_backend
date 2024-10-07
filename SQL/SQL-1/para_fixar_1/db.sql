@@ -1,0 +1,8 @@
+-- Active: 1725464340187@@127.0.0.1@3306@trybd_cars
+CREATE DATABASE TryBD_cars
+
+CREATE Table models (
+    id INTEGER PRIMARY KEY AUTO_INCREMENT,
+    name VARCHAR(80) NOT NULL,
+    brand VARCHAR(80) NOT NULL
+)
